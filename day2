@@ -1,0 +1,730 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "0e571f44-2d12-4ad5-b040-eafa73490662",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# # variables "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "9a5ce86b-9f82-47f3-9941-e28b4c146233",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2345\n"
+     ]
+    }
+   ],
+   "source": [
+    "a= 2345 \n",
+    "print (a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "4e6f76d9-6fb7-4e73-b47d-c09be0d36bcc",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (2684503687.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[3], line 1\u001b[1;36m\u001b[0m\n\u001b[1;33m    full name = ' komal verma'\u001b[0m\n\u001b[1;37m         ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "full name = ' komal verma'\n",
+    "print (full name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "e93ce211-4095-4804-9990-e9523db0e69c",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid decimal literal (3665352893.py, line 2)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[7], line 2\u001b[1;36m\u001b[0m\n\u001b[1;33m    123fg = 'harry'\u001b[0m\n\u001b[1;37m      ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid decimal literal\n"
+     ]
+    }
+   ],
+   "source": [
+    "#1>>:-it must start\n",
+    "123fg = 'harry'\n",
+    "print(123fg)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "8d174be5-8b76-4136-8da2-d62be7025a3f",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "cannot assign to expression here. Maybe you meant '==' instead of '='? (3751512897.py, line 3)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[9], line 3\u001b[1;36m\u001b[0m\n\u001b[1;33m    ajay@noida ='noida'\u001b[0m\n\u001b[1;37m    ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m cannot assign to expression here. Maybe you meant '==' instead of '='?\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 2>> it can not contain any special characters \n",
+    "#~!@%^*(){}[]\n",
+    "ajay@noida ='noida'\n",
+    "print (ajay@noida)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "8ebeea6d-f376-48e5-b538-ee2280ad9b35",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "noida\n"
+     ]
+    }
+   ],
+   "source": [
+    "ajaynoida='noida' \n",
+    "print(ajaynoida)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "ee402793-fc04-4147-937c-fd0765dc147c",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (1693057254.py, line 2)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[13], line 2\u001b[1;36m\u001b[0m\n\u001b[1;33m    employee name = 'karan'\u001b[0m\n\u001b[1;37m             ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "#3 >> it must contain any white spaces \n",
+    "employee name = 'karan'\n",
+    "print (employee name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "9939a30e-3312-484d-a6dc-9fc2a5472f3f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "komal verma\n"
+     ]
+    }
+   ],
+   "source": [
+    "#4>>variable can contain underscore:-start ,end,middle\n",
+    "employee_name ='komal verma'\n",
+    "print (employee_name)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "c333d98d-d644-47bd-a241-bc62dca7824b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "tinku sharma\n"
+     ]
+    }
+   ],
+   "source": [
+    "#5>>python variable is case sensitive \n",
+    "name ='tinku sharma'\n",
+    "print (name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "e67ff50e-2cd9-44b0-a4b8-0b44adda024c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "tinku sharma\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "5f080b27-3a47-4485-9987-4745aa142491",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "komal\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 6:-we can use digit after second position of variable \n",
+    "\n",
+    "n1 ='komal'\n",
+    "b2 ='ajay'\n",
+    "\n",
+    "print(n1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "5da201f2-a00c-4480-837c-6adb0bf5738f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "ajay\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (b2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "f5be4619-c989-4f84-b1e2-521497d6a7b6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Help on module keyword:\n",
+      "\n",
+      "NAME\n",
+      "    keyword - Keywords (from \"Grammar/python.gram\")\n",
+      "\n",
+      "MODULE REFERENCE\n",
+      "    https://docs.python.org/3.12/library/keyword.html\n",
+      "\n",
+      "    The following documentation is automatically generated from the Python\n",
+      "    source files.  It may be incomplete, incorrect or include features that\n",
+      "    are considered implementation detail and may vary between Python\n",
+      "    implementations.  When in doubt, consult the module reference at the\n",
+      "    location listed above.\n",
+      "\n",
+      "DESCRIPTION\n",
+      "    This file is automatically generated; please don't muck it up!\n",
+      "\n",
+      "    To update the symbols in this file, 'cd' to the top directory of\n",
+      "    the python source tree and run:\n",
+      "\n",
+      "        PYTHONPATH=Tools/peg_generator python3 -m pegen.keywordgen         Grammar/python.gram         Grammar/Tokens         Lib/keyword.py\n",
+      "\n",
+      "    Alternatively, you can run 'make regen-keyword'.\n",
+      "\n",
+      "FUNCTIONS\n",
+      "    iskeyword = __contains__(...) method of builtins.frozenset instance\n",
+      "        x.__contains__(y) <==> y in x.\n",
+      "\n",
+      "    issoftkeyword = __contains__(...) method of builtins.frozenset instance\n",
+      "        x.__contains__(y) <==> y in x.\n",
+      "\n",
+      "DATA\n",
+      "    __all__ = ['iskeyword', 'issoftkeyword', 'kwlist', 'softkwlist']\n",
+      "    kwlist = ['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'aw...\n",
+      "    softkwlist = ['_', 'case', 'match', 'type']\n",
+      "\n",
+      "FILE\n",
+      "    c:\\users\\dell\\anaconda3\\lib\\keyword.py\n",
+      "\n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 7>>\n",
+    "help ('keyword')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "6297310b-73ef-48ef-bc2a-9669e649f38a",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (2138263256.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[33], line 1\u001b[1;36m\u001b[0m\n\u001b[1;33m    await = 'tinku'\u001b[0m\n\u001b[1;37m          ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "await = 'tinku'\n",
+    "print (await)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "01b8168f-c723-4303-9ea2-030e5eadd5e4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 1>>:-it must not start with digit \n",
+    "#2>>:-it can not contain any special characters except underscore \n",
+    "#3>>:-it must not contain any white spaces \n",
+    "#4>>:-variable can contain underscore :-starts,end,middle\n",
+    "#5>>:-python variable is case sensitive \n",
+    "#6>>:-we can use digit after second position of variable \n",
+    "#7>>:-we can not use reserved keywords "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9540e3d8-90f9-4659-8e2b-657dc60de2b5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "814435ac-745d-40cc-8d32-a731ceb84e54",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# operators"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "477ad67d-7afb-4df4-9691-94bc97a1c551",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "55\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 45\n",
+    "b = 10\n",
+    "\n",
+    "print (a+b)  # operands:- += operator"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "13163ddb-71cf-4ed0-814b-7d46598ba2af",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# airthmetic op \n",
+    "# +\n",
+    "# -\n",
+    "# *\n",
+    "# /\n",
+    "# %\n",
+    "# **\n",
+    "# //\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "04ddc871-a673-4665-ad9d-39cde73097d8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "11\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 34\n",
+    "b = 45\n",
+    "print (b-a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "54f8939b-c9ee-4630-bb28-87c2f700e6ef",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1530\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 34 \n",
+    "b = 45 \n",
+    "print (34*45)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "id": "d630f747-7038-4200-a21f-f3e7501b863d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "9.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 36 \n",
+    "b = 4 \n",
+    "print (a / b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "92c77d09-23be-4fbe-90bc-4a6ec17f041b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 36 \n",
+    "b = 4\n",
+    "\n",
+    "print (a//b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "387aaabc-371a-40a7-9695-ece9d478044a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2\n"
+     ]
+    }
+   ],
+   "source": [
+    "# % modulus division :-remainder \n",
+    "a = 51\n",
+    "\n",
+    "b = 7 \n",
+    "\n",
+    "print ( a % b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "id": "41c6e3f9-b4dd-44eb-90cc-be335ba62333",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# op:- comparison op :-relational op \n",
+    "# <\n",
+    "# >\n",
+    "# <=\n",
+    "# >= \n",
+    "# !=\n",
+    "# ==\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "431aaaa1-1a96-4d0b-b4c1-6d24e8452ea7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "# bool :- true /false \n",
+    "a = 34 \n",
+    "b = 45 \n",
+    "\n",
+    "print (a < b)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "c80f6c49-f729-41a8-9c71-30be97abb448",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 34 \n",
+    "b = 45 \n",
+    "\n",
+    "print (a > b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "066a668c-5bf3-4c97-923b-908e84f2e264",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 34 \n",
+    "b = 45 \n",
+    "\n",
+    "print (a >= b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "id": "926f4de7-dcdf-46d6-859f-10ed15b6daee",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 34\n",
+    "b = 45 \n",
+    "\n",
+    "\n",
+    "print (a <= b ) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "id": "47b0dc19-49cd-47a8-b2d3-88ce5cefeb91",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 34 \n",
+    "b = 45 \n",
+    "\n",
+    "print (a == b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "1e3e168f-2520-4ab8-a2e2-d18a802d821e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 34\n",
+    "b = 45 \n",
+    "\n",
+    "\n",
+    "print (a != b)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "id": "b2576c6d-e24a-4ee1-9498-46c79acf89fd",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 70,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# membership : in,not in \n",
+    "a =['karan','komal', 'ravi', 'sahil','rohan']\n",
+    "'komal' in a "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 72,
+   "id": "73184314-a64d-47f2-a3d2-dd3f2372b310",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 72,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'Ravi' in a "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "id": "784a3a12-941e-4533-a036-96a8ffda468c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 74,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'modi' not in a "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "32bad09b-2c74-4c10-9218-12689facf09d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
